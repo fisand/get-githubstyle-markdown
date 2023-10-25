@@ -42,7 +42,7 @@ const getHTML = async () => {
   <div class="p-4 space-y-3">
     <div class="flex gap-2 flex-wrap">
       <Button variant="secondary" class="w-auto flex-shrink-0">Github token</Button>
-      <Input v-model="token" class="w-200" placeholder="your github token" />
+      <Input v-model="token" type="password" class="w-200" placeholder="your github token" />
       <a href="https://github.com/settings/tokens" target="_blank">
         <Button variant="link">Get your github token</Button>
       </a>
